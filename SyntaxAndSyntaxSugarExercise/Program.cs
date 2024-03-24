@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int answer = 4;
+            //changing string to var, switching to inferred typing 
+
+            var response = (answer > 9)
+             ? $"{answer} is less than 9"
+             : $"{answer} is greater than 9";
         }
     }
 }
